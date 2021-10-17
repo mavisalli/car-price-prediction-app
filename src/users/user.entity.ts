@@ -5,6 +5,7 @@ import {
   AfterInsert,
   AfterRemove,
   AfterUpdate,
+  Index,
 } from 'typeorm';
 
 @Entity()
