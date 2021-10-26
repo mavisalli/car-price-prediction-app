@@ -16,6 +16,7 @@ export class CreateReportDto {
   model: string;
 
   @IsNumber()
+  @Min(1930)
   @Max(2050)
   year: number;
 
@@ -26,6 +27,7 @@ export class CreateReportDto {
 
   @IsLongitude()
   lng: number;
+
   @IsLatitude()
   lat: number;
 
