@@ -16,7 +16,7 @@ export class CurrentUserInterceptor implements NestInterceptor {
 
     if (userId) {
       const user = await this.usersService.findOne(userId);
-      request.CurrentUser = user; //decorator ile interceptor baglanıyor
+      request.currentUser = user;
     }
 
     return handler.handle();
