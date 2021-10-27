@@ -3,12 +3,14 @@ import { Request, Response, NextFunction } from 'express';
 import { UsersService } from '../users.service';
 
 declare global {
+  //eslint-disable-next-line @typescript-eslint/no-namespace
   namespace Express {
     interface Request {
       currentUser?: User;
     }
   }
 }
+
 @Injectable()
 export class CurrentUserMiddleware implements NestMiddleware {
   constructor(private usersService: UsersService) {}
