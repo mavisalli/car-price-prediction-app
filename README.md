@@ -9,10 +9,10 @@
 - Sqlite
 
 #### Functional Requirements
--:ballot_box_with_check: unit and e2e tests done
--:ballot_box_with_check:authentication and authorization done
--:ballot_box_with_check: Query Builders used
--:ballot_box_with_check: Permission system used
+- [x] Unit and e2e tests done
+- [x] Authentication and authorization done
+- [x] Query Builders used
+- [x] Permission system used
 - [ ] Migration structure continue
 - [ ] Move database from sqlite to postgres
  
