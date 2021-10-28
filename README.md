@@ -7,11 +7,12 @@
 - TypeScript
 - TypeORM
 - Sqlite
-
- :ballot_box_with_check: unit and e2e tests done
- :ballot_box_with_check:authentication and authorization done
- :ballot_box_with_check: Query Builders used
- :ballot_box_with_check: Permission system used
- - [ ] Migration structure continue
- - [ ] Move database from sqlite to postgres
+- 
+#### Functional Requirements
+:ballot_box_with_check: unit and e2e tests done
+:ballot_box_with_check:authentication and authorization done
+:ballot_box_with_check: Query Builders used
+:ballot_box_with_check: Permission system used
+- [ ] Migration structure continue
+- [ ] Move database from sqlite to postgres
  
